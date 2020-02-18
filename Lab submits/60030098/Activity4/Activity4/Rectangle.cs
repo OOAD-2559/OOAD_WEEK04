@@ -1,15 +1,15 @@
 ﻿class Rectangle
 {
-    public static double Area(double Width, double Height)
-    {
-        double result = 0.0;
-        return result;
-    }
+    static double w, h;
+    // เมธอดที่ไม่ต้องมีส่วน body
+    public static double calculateArea() => w * h;
 
     static int Main()
     {
-        double rectArea = Area(10, 20);
-        System.Console.WriteLine("rectangle area = " + rectArea.ToString());
+        w = 10;
+        h = 20;
+        double area = calculateArea();
+        System.Console.WriteLine("rectangle area = " + area.ToString());
         System.Console.ReadKey();
         return 0;
     }
