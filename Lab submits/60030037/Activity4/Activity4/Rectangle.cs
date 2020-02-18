@@ -3,6 +3,7 @@
     public static double Area(double Width, double Height)
     {
         double result = 0.0;
+        result = Width * Height;
         return result;
     }
 
