@@ -7,14 +7,21 @@
 
     public void CreateItem()
     {
-        itemNumber = 792475;
-        itemName = "Wireless Keyboard Logitec 1548";
-        size = "200g.";
-        unitPrice = 1800;
+        itemNumber = 9111542;
+        itemName = "CDROM";
+        size = "12";
+        unitPrice = 40;
+    }
+
+    public double CalculateTotalValue(int qty)
+    {
+        return unitPrice * qty;
     }
 
     public void Describe()
     {
+        int quantity = 6;
+
         System.Console.WriteLine("Department Store");
 
         System.Console.Write("Item #:     ");
@@ -25,5 +32,9 @@
         System.Console.WriteLine(size);
         System.Console.Write("Unit Price: ");
         System.Console.WriteLine(unitPrice);
+        System.Console.Write("Quantity:    ");
+        System.Console.WriteLine(quantity);
+        System.Console.Write("Total Value: ");
+        System.Console.WriteLine(CalculateTotalValue(quantity));
     }
 }
