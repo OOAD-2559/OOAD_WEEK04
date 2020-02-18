@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentStore
 {
-    class StoreItem
+    public class StoreItem
     {
         public int itemNumber;
         public string itemName;
