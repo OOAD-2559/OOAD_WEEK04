@@ -13,7 +13,6 @@
         System.Console.Write("Hourly Salary: ");
         System.Console.WriteLine(hourlySalary); // นำพารามิเตอร์มาแสดงที่หน้าจอ
     }
-
     static int Main()
     {
         Exercise exo = new Exercise();
