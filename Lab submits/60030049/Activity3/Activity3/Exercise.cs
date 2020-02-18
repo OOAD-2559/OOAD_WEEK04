@@ -1,6 +1,6 @@
 ﻿class Exercise
 {
-    void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary=500.00D)
+    void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary)
     {
         System.Console.WriteLine("Employee Record");
         System.Console.WriteLine("-----------------------------");
@@ -18,8 +18,7 @@
         Exercise exo = new Exercise();
         // เรียกใช้งานโดยส่งพารามิเตอร์ทั้ง 4 ตัวไปให้เมธอด
         exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
-        exo.ShowEmployee(572948, "Somchi Jaided", "M");
-        exo.ShowEmployee(572948, "Somai Jaisoo");
+
         System.Console.ReadKey();
         return 0;
     }
