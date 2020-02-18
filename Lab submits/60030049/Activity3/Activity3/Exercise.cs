@@ -17,8 +17,7 @@
     {
         Exercise exo = new Exercise();
         // เรียกใช้งานโดยส่งพารามิเตอร์ทั้ง 4 ตัวไปให้เมธอด
-        exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
-        exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
+        exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
         System.Console.ReadKey();
         return 0;
     }
