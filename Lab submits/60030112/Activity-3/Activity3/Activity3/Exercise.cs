@@ -8,7 +8,7 @@ namespace Activity3
 {
     class Exercise
     {
-        void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary)
+        void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary = 500.00D)
         {
             System.Console.WriteLine("Employee Record");
             System.Console.WriteLine("-----------------------------");
@@ -24,8 +24,8 @@ namespace Activity3
         static int Main()
         {
             Exercise exo = new Exercise();
-            exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
-
+            exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
+            exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
             System.Console.ReadKey();
             return 0;
         }
